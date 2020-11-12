@@ -1,0 +1,737 @@
+
+
+body .progtitle p{
+  padding-top: 50px;
+}
+
+html, body{
+  height: 100%;
+}
+
+p{
+
+	padding-left:8px;
+
+}
+
+.navbar-bar svg{
+  margin-left: 270px;
+  color: grey;
+}
+
+.navbar-brand svg{
+  color: blue;
+}
+
+p {
+  color:grey;
+  font-size:10px;
+}
+
+.navbar-brand{
+  color: blue;
+}
+
+
+container-fluid {
+  padding-left: 5px;
+
+}
+
+.prog{
+  display: flex;
+}
+.progtitle{
+  padding-left: ;
+  margin-bottom: -.75rem;
+}
+
+.progtitle p{
+  padding-left: 5px;
+  margin-bottom: .25rem;
+}
+
+.progcompletion{
+  padding-left: 5px;
+
+}
+
+.progfollowers{
+  margin-left:  5px;
+  display: flex;
+  padding-top: 10px;
+}
+
+.followers{
+  display: flex;
+  padding-top: 5px;
+}
+
+.followers svg{
+  color: #747474;
+}
+
+.miniature{
+  padding-left: 123px;
+}
+
+.progfollowerscount p{
+  color: #FB8787;
+  margin-left: 5px;
+}
+
+.carousel-item p{
+  color: orange;
+}
+
+.reco p{
+  padding-left: 5px;
+}
+
+.reco{
+  display: flex;
+}
+
+.recoproduit{
+  margin-left: 84px;
+}
+
+.recipereco{
+
+  padding-left: 5px;
+}
+
+.recipereco{
+  display: flex;
+}
+
+.Leaderboard{
+  padding-left: 5px;
+  margin-top: 20px;
+}
+
+.products-recommendation{
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.carousel {
+  width:182px;
+  height:121px;
+
+}
+
+.progcompletionimg{
+  display: flex;
+}
+
+.reco{
+  margin-bottom: -.75rem;
+
+}
+
+.reciperecoimg{
+  display: flex;
+
+}
+.productsrecoimg{
+  display: flex;
+
+}
+
+.carousel-inner .progfollowers{
+  margin-left: -0.01rem;
+  margin-top: -.75rem
+
+}
+
+.Leaderboard{
+  padding-top: 20px;
+  margin-bottom: -.4rem;
+}
+
+tbody {
+  font-size:10px;
+}
+
+td p{
+  font-style: italic;
+}
+
+
+.alerts p{
+  padding-left: 5px;
+  font-family: "arial";
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: -1.2rem;
+}
+
+.nav{
+  padding-top: 50px;
+  font-family: arial;
+  font-size: 15px;
+  margin-bottom: -0.2rem;
+}
+
+
+
+
+
+.nav-link svg{
+  color: grey;
+  margin-left: 10px;
+}
+
+
+
+a:active{
+  color: #03DAC6;
+}
+
+.tabs{
+  display:block;
+
+}
+
+.progtitle1 p{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: arial;
+  padding-left: 5px;
+  margin-bottom: 0.1rem;
+}
+
+.progdescription p{
+    padding-left: 5px;
+    font-family: arial;
+    font-size: 12px;
+    margin-bottom: 0.1rem;
+    color:#ff9900;
+}
+
+.progoverview{
+  display: flex;
+  padding-top: 10px;
+}
+
+.time{
+  padding-left: 5px;
+  display: flex;
+}
+
+.time p {
+  padding-left: 5px;
+}
+
+
+
+.bi.bi-calendar-check{
+  padding-left: 50px;
+  width: inherit;
+
+}
+
+.equip p{
+  padding-left: 70px;
+}
+
+.cal{
+  padding-left: 100px;
+}
+
+.dif{
+  padding-left: 70px;
+}
+
+.recetteactif{
+  padding-left: 5px;
+}
+
+.recetteoverview{
+  padding-top: 5px;
+}
+
+.container-fluid svg{
+  fill: grey !important;
+  width: 24px;
+  height: 24px;
+}
+
+.progphases {
+  margin: 0 auto;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+
+
+}
+
+.progphases p {
+  font-size: 13px;
+
+}
+
+
+
+.cooldown {
+  padding-left: 50px;
+}
+
+.workout{
+  padding-left: 50px;
+}
+
+.progcontent{
+  margin-left: 5px;
+}
+
+table{
+  width: 100%;
+}
+
+.progcontent td{
+  height: 30px;
+}
+
+.sessiontrackertitle {
+  margin: 0 auto;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.sessiontrackertitle p{
+  font-size: 13px;
+  color: lightgrey;
+}
+
+label{
+  font-size: 11px;
+  margin-left: 35px;
+
+}
+
+.form-control{
+  width: 50px;
+  margin-left: 24px;
+  border-style: none;
+}
+option{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.sessiontracker{
+  margin: 0 auto;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  padding-bottom: 60px;
+}
+
+.sessiontracker button{
+  width: 20px;
+  height: 20px;
+  margin-left: 30px;
+  margin-top: 38px;
+}
+
+.progtitle2{
+  padding-top: 50px;
+}
+
+.progtitle2 p{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: arial;
+  padding-left: 5px;
+  margin-bottom: 0.1rem;
+}
+
+.profilepic p{
+ 	font-size: 15px;
+  text-align: center;
+}
+
+.round-circle {
+  padding-left: 5px;
+}
+
+ .btn-success {
+	padding-left: 10px;
+
+}
+
+.profilepic img{
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profilepic svg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+}
+
+.burntfat{
+  padding-top: 20px;
+}
+
+.bodyfat{
+  margin-top: 20px;
+}
+
+.weigth{
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.progphases{
+  margin-top: -55px;
+}
+
+.progphases a{
+  font-size: 12px;
+}
+
+.progphases a{
+  color: #03DAC6 ;
+}
+
+.progphases a:active{
+  color: #FB8787;
+}
+
+
+.progcontent{
+  margin-top: ;
+}
+
+.btngroup{
+  margin-top: -5px;
+
+}
+
+
+
+.far.fa-circle {
+  color: #5cb85c;
+}
+
+#one.fas.fa-circle{
+  color: #5cb85c;
+  display:none;
+}
+
+
+
+
+
+button[data-setter] {
+    outline: none;
+    background: transparent;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    width: 25px;
+    height: 30px;
+    color: #F7958E;
+    cursor: pointer;
+}
+button[data-setter]:hover {
+    opacity: 0.5;
+}
+.container {
+    display: block;
+    padding-top:  20px;
+    top: 30px;
+    width:250px;
+    margin-left: auto;
+}
+.setters {
+    margin-left: auto;
+    margin-right: auto;
+    left: ;
+    top: ;
+}
+.minutes-set {
+    float: left;
+    margin-right: 28px;
+}
+.seconds-set {
+    float: right;
+}
+
+.display-remain-time {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'arial';
+    font-weight: 100;
+    font-size: 20px;
+    color: #F7958E;
+}
+
+
+
+#pause {
+    display: inline;
+    outline: none;
+    background: transparent;
+    border: none;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+.play::before {
+    display: ;
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 22px solid #F7958E;
+}
+.pause::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    width: 15px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 1px;
+    border: 5px solid #F7958E;
+    border-top: none;
+    border-bottom: none;
+}
+#pause:hover {
+    opacity: 0.8;
+}
+.e-c-base {
+    fill: none;
+    stroke: #B6B6B6;
+    stroke-width: 4px
+}
+.e-c-progress {
+    fill: none;
+    stroke: #F7958E;
+    stroke-width: 4px;
+    transition: stroke-dashoffset 0.7s;
+}
+.e-c-pointer {
+    fill: #FFF;
+    stroke: #F7958E;
+    stroke-width: 2px;
+}
+
+
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.profilepic {
+  background: rgb(121,9,106);
+  background: linear-gradient(90deg, rgba(121,9,106,1) 35%, rgba(255,154,0,1) 100%);
+  height:50%;
+}
+
+.profilepic-space{
+  height: 20px;
+}
+
+.bodycompo{
+
+  height: 30%;
+}
+
+.bodyfat{
+  height: 30%;
+}
+
+.weight{
+  height: 30%;
+}
+
+.rankcont{
+  height: 500px;
+
+  background: linear-gradient(180deg, rgba(58,69,180,1) 9%, rgba(69,196,252,1) 98%);
+}
+
+.rankcont table{
+  color: white;
+  margin-left: 10px;
+}
+
+.rankcont svg{
+  margin-left:45%;;
+  margin-right: auto;
+  color: white;
+}
+
+.ranktitle p{
+  color: white;
+}
+
+#title{
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #3a45b4;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.prodreco{
+  width: 180px;
+  height: 120px;
+}
+
+.produits{
+  margin-top: 50px;
+  display: flex;
+  margin-left: 5px;
+}
+
+.price {
+  padding-left: 110px;
+}
+
+.prodetails {
+  display: flex;
+  padding-left: 5px;
+  margin-top:  -10px;
+}
+
+.prodtitle p{
+  margin-left: -5px;
+}
+
+.challenge{
+  margin-top: 50px;
+  margin-left: 5px;
+}
+
+.challdescription{
+  margin-top: -20px;
+}
+
+.participate{
+  margin-top: -8px;
+}
+.classement table {
+  margin-top: 8px;
+  border:1px solid lightgrey;
+}
+
+.containerproduit{
+  margin-top: 50px;
+}
+
+.containerproduit p{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.navbar.navbar-light.bg-light.fixed-bottom {
+  max-height:45px;
+  height:100%;
+}
+
+.container-fluid{
+  margin-top: -15px;
+}
+
+.training {
+  padding-right: 15px;
+}
+
+.diet{
+  padding-right: 15px;
+}
+
+
+.news {
+    width: 160px
+}
+
+.news-scroll a {
+    text-decoration: none
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px !important;
+    background-color: ;
+    border-radius: 50%;
+    display: inline-block
+}
+
+.container.mt-5{
+
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.row{
+  margin-top: -60px;
+  width: 370px;
+}
+
+.news1{
+  color: orange;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.news2{
+  color: orange;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.news3{
+  color: orange;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.nav-brand img{
+  padding-left: 20px;
+}
+
+.progactif{
+  margin-right: -5px;
+}
