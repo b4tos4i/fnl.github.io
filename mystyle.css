@@ -733,11 +733,14 @@ button[data-setter]:hover {
 }
 
 .progactif{
-  margin-right: -5px;
+
 }
 
 .img-responsive{
   display: block;
   max-width: 100%;
   height:auto;
+  padding-right: 5px;
+
+
 }
