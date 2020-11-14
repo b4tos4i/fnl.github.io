@@ -40,6 +40,10 @@ container-fluid {
 
 .prog{
   display: flex;
+  max-width: 100%;
+  height:auto;
+  padding-right:5px;
+
 }
 .progtitle{
   padding-left: ;
@@ -732,15 +736,11 @@ button[data-setter]:hover {
   padding-left: 20px;
 }
 
-.progactif{
 
-}
 
 .img-responsive{
   display: block;
   max-width: 100%;
   height:auto;
-  padding-right:5px;
-
-
+  padding-right:;
 }
