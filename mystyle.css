@@ -16,8 +16,6 @@ p{
 	padding-left:8px;
 }
 
-
-
 .bi.bi-bell-fill{
   float: right;
   color: grey;
@@ -40,7 +38,6 @@ p {
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
-
 }
 
 .prog{
@@ -49,9 +46,8 @@ p {
   width: 100%;
   height:auto;
   min-width: 100%;
-
-
 }
+
 .progtitle{
   padding-left: ;
   margin-bottom: -.75rem;
@@ -63,16 +59,20 @@ p {
   margin-bottom: .25rem;
 }
 
-.progfollowers{
-  margin-left:  5px;
-  margin-top: 5px;
+.p-2{
   display: flex;
-
 }
 
-.followers{
-  display: flex;
-  padding-top: 5px;
+.p-2 img{
+  margin-top: -5px;
+}
+
+.p-2 p{
+  margin-left: -20px;
+}
+
+.miniature{
+  padding-right: 10px;
 }
 
 .followers svg{
@@ -83,10 +83,6 @@ p {
   color: #FB8787;
 }
 
-.miniature {
-
-  display: flex;
-}
 
 
 .carousel-item p{
@@ -99,7 +95,7 @@ p {
 
 .reco{
   display: flex;
-  margin-top: 20px;
+
 }
 
 
