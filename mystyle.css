@@ -1,21 +1,25 @@
 
 
-body .progtitle p{
+.progtitle {
   padding-top: 50px;
 }
 
 html, body{
-  height: 100%;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
 }
 
 p{
-
 	padding-left:8px;
-
 }
 
-.navbar-bar svg{
-  margin-left: 270px;
+
+
+.bi.bi-bell-fill{
+  float: right;
   color: grey;
 }
 
@@ -33,21 +37,25 @@ p {
 }
 
 
-container-fluid {
-  padding-left: 5px;
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
 
 }
 
 .prog{
   display: flex;
-  max-width: 100%;
+  width: 100vw;
+  width: 100%;
   height:auto;
-  padding-right:5px;
+  min-width: 100%;
+
 
 }
 .progtitle{
   padding-left: ;
   margin-bottom: -.75rem;
+  width: 50%;
 }
 
 .progtitle p{
@@ -55,15 +63,11 @@ container-fluid {
   margin-bottom: .25rem;
 }
 
-.progcompletion{
-  padding-left: 5px;
-
-}
-
 .progfollowers{
   margin-left:  5px;
+  margin-top: 5px;
   display: flex;
-  padding-top: 10px;
+
 }
 
 .followers{
@@ -75,14 +79,15 @@ container-fluid {
   color: #747474;
 }
 
-.miniature{
-  padding-left: 123px;
-}
-
 .progfollowerscount p{
   color: #FB8787;
-  margin-left: 5px;
 }
+
+.miniature {
+
+  display: flex;
+}
+
 
 .carousel-item p{
   color: orange;
@@ -94,19 +99,20 @@ container-fluid {
 
 .reco{
   display: flex;
+  margin-top: 20px;
 }
 
-.recoproduit{
-  margin-left: 84px;
-}
 
 .recipereco{
-
-  padding-left: 5px;
+  padding-left: ;
 }
 
 .recipereco{
   display: flex;
+}
+
+.reciperecoimg{
+  width: 50%;
 }
 
 .Leaderboard{
@@ -120,9 +126,8 @@ container-fluid {
 }
 
 .carousel {
-  width:182px;
-  height:121px;
-
+  width:100%;
+  height:auto;
 }
 
 .progcompletionimg{
@@ -178,11 +183,8 @@ td p{
   font-family: arial;
   font-size: 15px;
   margin-bottom: -0.2rem;
+  display: inline-block;
 }
-
-
-
-
 
 .nav-link svg{
   color: grey;
@@ -737,10 +739,8 @@ button[data-setter]:hover {
 }
 
 
-
 .img-responsive{
-  display: block;
+  display: flex;
   max-width: 100%;
   height:auto;
-  padding-right:;
 }
