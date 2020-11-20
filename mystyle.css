@@ -1,19 +1,9 @@
-
-
-.progtitle {
-  padding-top: 50px;
-}
-
 html, body{
   height: auto;
   width: 100%;
   margin: 0;
   padding: 0;
   overflow-x:hidden;
-}
-
-p{
-	padding-left:8px;
 }
 
 .bi.bi-bell-fill{
@@ -34,92 +24,52 @@ p {
   color: blue;
 }
 
-
-.container-fluid {
-  padding-left: 0px;
-  padding-right: 0px;
+.container-fluid svg{
+  fill: grey !important;
+  width: 24px;
+  height: 24px;
 }
 
-.prog{
-  display: flex;
-  width: 100vw;
-  width: 100%;
-  height:auto;
-  min-width: 100%;
+.prog {
+  padding-top: 50px;
 }
 
-.progtitle{
-  padding-left: ;
-  margin-bottom: -.75rem;
-  width: 50%;
-}
-
-.progtitle p{
-  padding-left: 5px;
-  margin-bottom: .25rem;
-}
-
-.p-2{
-  display: flex;
+.progtitre{
+  color:grey;
+  font-size:10px;
+  margin-left: 5px;
+  margin-top: 0px;
+  padding: 0px;
 }
 
 .p-2 img{
-  margin-top: -5px;
+  display: block;
+  margin: 0;
 }
 
-.p-2 p{
-  margin-left: -20px;
-}
-
-.miniature{
-  padding-right: 10px;
-}
-
-.followers svg{
-  color: #747474;
-}
-
-.progfollowerscount p{
-  color: #FB8787;
-}
-
-
-
-.carousel-item p{
+#nbclap{
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: orange;
 }
+ #reco{
+  color:grey;
+  font-size:10px;
+  margin-left: 5px;
 
-.reco p{
-  padding-left: 5px;
+  padding: 0px;
 }
 
-.reco{
-  display: flex;
-
-}
-
-
-.recipereco{
-  padding-left: ;
-}
-
-.recipereco{
-  display: flex;
-}
-
-.reciperecoimg{
-  width: 50%;
+#recipe1{
+  margin-top: 5px;
 }
 
 .Leaderboard{
   padding-left: 5px;
-  margin-top: 20px;
 }
 
-.products-recommendation{
-  padding-left: 5px;
-  padding-top: 10px;
-}
 
 .carousel {
   width:100%;
@@ -130,29 +80,18 @@ p {
   display: flex;
 }
 
-.reco{
-  margin-bottom: -.75rem;
-
-}
 
 .reciperecoimg{
   display: flex;
-
 }
 .productsrecoimg{
   display: flex;
-
 }
 
-.carousel-inner .progfollowers{
-  margin-left: -0.01rem;
-  margin-top: -.75rem
-
-}
 
 .Leaderboard{
-  padding-top: 20px;
-  margin-bottom: -.4rem;
+  padding-top: -20px;
+  margin-bottom: ;
 }
 
 tbody {
@@ -163,6 +102,13 @@ td p{
   font-style: italic;
 }
 
+.table.table-sm{
+  margin-bottom: 0;
+}
+
+.container.mt-5{
+  margin-top: -50px;
+}
 
 .alerts p{
   padding-left: 5px;
@@ -228,8 +174,6 @@ a:active{
   padding-left: 5px;
 }
 
-
-
 .bi.bi-calendar-check{
   padding-left: 50px;
   width: inherit;
@@ -256,11 +200,7 @@ a:active{
   padding-top: 5px;
 }
 
-.container-fluid svg{
-  fill: grey !important;
-  width: 24px;
-  height: 24px;
-}
+
 
 .progphases {
   margin: 0 auto;
@@ -453,7 +393,7 @@ button[data-setter] {
 button[data-setter]:hover {
     opacity: 0.5;
 }
-.container {
+.container11111 {
     display: block;
     padding-top:  20px;
     top: 30px;
@@ -668,8 +608,9 @@ button[data-setter]:hover {
   height:100%;
 }
 
-.container-fluid{
+#nav{
   margin-top: -15px;
+  margin-left: 15px;
 }
 
 .training {
@@ -707,10 +648,6 @@ button[data-setter]:hover {
 
 }
 
-.row{
-  margin-top: -60px;
-  width: 370px;
-}
 
 .news1{
   color: orange;
@@ -730,9 +667,6 @@ button[data-setter]:hover {
   font-style: italic;
 }
 
-.nav-brand img{
-  padding-left: 20px;
-}
 
 
 .img-responsive{
