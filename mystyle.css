@@ -11,6 +11,11 @@ html, body{
   color: grey;
 }
 
+.bag{
+  float: right;
+  color: grey;
+}
+
 .navbar-brand svg{
   color: blue;
 }
@@ -562,8 +567,33 @@ button[data-setter]:hover {
   margin-left: 5px;
 }
 
+#imgprod{
+  position: fixed;
+  margin-top: -5px
+}
+
+#description{
+  padding-top:  65%;
+}
+
+.priceproduit{
+    text-align: center;
+}
+
+.heart{
+  margin: ;
+}
+
 .price {
   padding-left: 110px;
+}
+
+#price{
+  position: fixed;
+  top: 85%;
+  width: 500px;
+  left: 77%;
+
 }
 
 .prodetails {
@@ -602,6 +632,8 @@ button[data-setter]:hover {
   text-align: center;
   margin-top: 20px;
 }
+
+
 
 .navbar.navbar-light.bg-light.fixed-bottom {
   max-height:45px;
