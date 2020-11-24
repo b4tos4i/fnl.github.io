@@ -144,10 +144,7 @@ a:active{
   color: #03DAC6;
 }
 
-.tabs{
-  display:block;
 
-}
 
 .progtitle1 p{
   font-size: 15px;
@@ -157,36 +154,58 @@ a:active{
   margin-bottom: 0.1rem;
 }
 
-.progdescription p{
+
+
+/* training */
+
+#tabs{
+  padding-top: 55px;
+  text-align: center;
+}
+
+#progdescription p{
     padding-left: 5px;
     font-family: arial;
     font-size: 12px;
     margin-bottom: 0.1rem;
+    margin-top: -4px;
     color:#ff9900;
 }
 
-.progoverview{
-  display: flex;
-  padding-top: 10px;
+#training{
+  margin-top: 5px;
 }
 
-.time{
-  padding-left: 5px;
-  display: flex;
+#progoverview{
+  text-align: center;
+  padding-top: 5px;
 }
 
-.time p {
-  padding-left: 5px;
+#duration svg,p{
+  display: inline-block;
+  text-align:center;
 }
 
-.bi.bi-calendar-check{
-  padding-left: 50px;
-  width: inherit;
-
+#perweek svg,p{
+  display: inline-block;
+  text-align:center;
 }
 
-.equip p{
-  padding-left: 70px;
+#equipment p{
+  display: inline-block;
+  text-align: center;
+}
+
+/* training details*/
+
+#progdetails{
+  padding-top: 55px;
+}
+
+#tabsprog{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .cal{
@@ -233,7 +252,10 @@ a:active{
 }
 
 .progcontent{
-  margin-left: 5px;
+  padding-left: 5px;
+  margin-top: 10px;
+  background-color: ;
+
 }
 
 table{
@@ -249,7 +271,7 @@ table{
   width: 300px;
   display: flex;
   justify-content: center;
-  padding-top: 15px;
+  padding-top: 8px;
 }
 
 .sessiontrackertitle p{
@@ -368,7 +390,22 @@ option{
 
 }
 
+.fa-stack.fa-1x{
+  width: 10px;
+}
 
+#ronds{
+  width: 30%;
+  text-align: center;
+}
+
+#weight{
+  text-align: center;
+}
+
+#serie{
+  text-align: center;
+}
 
 .far.fa-circle {
   color: #5cb85c;
@@ -379,8 +416,9 @@ option{
   display:none;
 }
 
-
-
+.timer{
+  margin-top: 10px;
+}
 
 
 button[data-setter] {
@@ -428,7 +466,9 @@ button[data-setter]:hover {
     color: #F7958E;
 }
 
-
+#chrono{
+  text-align: center;
+}
 
 #pause {
     display: inline;
