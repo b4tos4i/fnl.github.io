@@ -257,6 +257,11 @@ table{
   font-size: 12px;
 }
 
+.minutes-set{
+  margin: auto;
+}
+
+
 .sessiontrackertitle {
   margin: 0 auto;
   width: 300px;
@@ -441,11 +446,11 @@ option{
 }
 
 .far.fa-circle {
-  color: #5cb85c;
+  color: #03DAC6;
 }
 
 #one.fas.fa-circle{
-  color: #5cb85c;
+  color: #03DAC6;
   display:none;
 }
 
@@ -469,22 +474,14 @@ button[data-setter] {
 button[data-setter]:hover {
     opacity: 0.5;
 }
-.container11111 {
-    display: block;
-    padding-top:  20px;
-    top: 30px;
-    width:250px;
-    margin-left: auto;
-}
+
 .setters {
     margin-left: auto;
     margin-right: auto;
-    left: ;
-    top: ;
+
 }
 .minutes-set {
     float: left;
-    margin-right: 28px;
 }
 .seconds-set {
     float: right;
