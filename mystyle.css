@@ -203,7 +203,7 @@ a:active{
 }
 
 #tabsprog{
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
   margin-top: 10px;
 }
@@ -241,20 +241,10 @@ a:active{
 
 }
 
-
-
-.cooldown {
-  padding-left: 50px;
-}
-
-.workout{
-  padding-left: 50px;
-}
-
 .progcontent{
   padding-left: 5px;
   margin-top: 10px;
-  background-color: ;
+  font-size: 13px;
 
 }
 
@@ -264,6 +254,7 @@ table{
 
 .progcontent td{
   height: 30px;
+  font-size: 12px;
 }
 
 .sessiontrackertitle {
@@ -279,10 +270,68 @@ table{
   color: lightgrey;
 }
 
+.sessiontracker{
+
+  display: flex;
+  padding-bottom: 60px;
+}
+
+.sessiontracker button{
+  width: 20px;
+  height: 20px;
+  margin-left: 13px;
+  margin-top: 38px;
+  margin-right: 13px;
+
+}
+
+#tracker{
+justify-content: center;
+}
+
+#trackerset{
+  text-align: center;
+}
+
+#trackerreps{
+  text-align: center;
+}
+
+#trackerweight{
+  text-align: center;
+}
+
+#trackerrpe{
+  text-align: center;
+}
+
+#exampleFormControlSelect1{
+  text-align: center;
+  margin: auto;
+}
+
+#exampleFormControlSelect2{
+  text-align: center;
+  margin: auto;
+}
+
+#exampleFormControlSelect3{
+  text-align: center;
+  margin: auto;
+}
+
+#exampleFormControlSelect4{
+  text-align: center;
+  margin: auto;
+}
+
+.validation{
+  text-align: center;
+}
+
 label{
   font-size: 11px;
-  margin-left: 35px;
-
+  margin-left: ;
 }
 
 .form-control{
@@ -293,22 +342,6 @@ label{
 option{
   font-weight: bolder;
   font-size: 20px;
-}
-
-.sessiontracker{
-  margin: 0 auto;
-  width: 300px;
-  display: flex;
-  justify-content: center;
-  margin-left: 20px;
-  padding-bottom: 60px;
-}
-
-.sessiontracker button{
-  width: 20px;
-  height: 20px;
-  margin-left: 30px;
-  margin-top: 38px;
 }
 
 .progtitle2{
@@ -334,7 +367,6 @@ option{
 
  .btn-success {
 	padding-left: 10px;
-
 }
 
 .profilepic img{
@@ -404,6 +436,7 @@ option{
 }
 
 #serie{
+  width: 20%;
   text-align: center;
 }
 
