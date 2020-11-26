@@ -332,6 +332,7 @@ justify-content: center;
 
 .validation{
   text-align: center;
+
 }
 
 label{
@@ -361,9 +362,15 @@ option{
   margin-bottom: 0.1rem;
 }
 
-.profilepic p{
+.profilepic,p{
  	font-size: 15px;
   text-align: center;
+}
+
+
+.bi.bi-gem{
+  margin-top: 10px;
+
 }
 
 .round-circle {
@@ -372,6 +379,7 @@ option{
 
  .btn-success {
 	padding-left: 10px;
+  color: #03DAC6;
 }
 
 .profilepic img{
@@ -385,7 +393,7 @@ option{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -15px;
+
 }
 
 .burntfat{
@@ -433,7 +441,8 @@ option{
 
 #ronds{
   width: 30%;
-  text-align: center;
+  text-align: left;
+  padding-left: 20px;
 }
 
 #weight{
@@ -447,6 +456,11 @@ option{
 
 .far.fa-circle {
   color: #03DAC6;
+}
+
+.fas.fa-circle{
+  color: #03DAC6;
+  display: none;
 }
 
 #one.fas.fa-circle{
@@ -574,15 +588,19 @@ button[data-setter]:hover {
 .profilepic {
   background: rgb(121,9,106);
   background: linear-gradient(90deg, rgba(121,9,106,1) 35%, rgba(255,154,0,1) 100%);
-  height:50%;
+  height:35vh;
 }
 
 .profilepic-space{
   height: 20px;
 }
 
-.bodycompo{
+#gem{
+  width: 30px;
 
+}
+
+.bodycompo{
   height: 30%;
 }
 
