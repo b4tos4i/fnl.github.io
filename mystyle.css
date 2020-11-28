@@ -89,8 +89,9 @@ p {
 .reciperecoimg{
   display: flex;
 }
-.productsrecoimg{
-  display: flex;
+
+#firstproducts{
+  padding-top: 50px;
 }
 
 
@@ -590,6 +591,57 @@ button[data-setter]:hover {
   z-index: 10;
   background-color: #2196F3;
   color: #fff;
+}
+
+.prodtitre{
+  font-size: 12px;
+  margin-left: 5px;
+  color: grey;
+}
+
+.productnph{
+  display: flex;
+  margin: 0;
+
+}
+
+#secondproduct{
+  margin-top: 25px;
+}
+
+#prodname{
+  font-size: 14px;
+  color: grey;
+  padding-left: 5px;
+}
+
+#prodprice{
+  font-size: 14px;
+  color: grey;
+  padding: 0;
+  padding-left: 5px;
+  margin: 0;
+}
+
+#priceheart{
+  display: flex;
+  padding: 0;
+}
+
+#prodheart{
+  font-size: 14px;
+  padding: 0;
+  padding-right: 5px;
+  color: grey;
+  text-align: right;
+  margin: 0;
+
+}
+
+#prodheart img{
+  width: 16px;
+  height: 16px;
+  margin-top: -3px;
 }
 
 .profilepic {
