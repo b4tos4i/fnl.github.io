@@ -97,6 +97,45 @@
     </script>
     </div>
 
+    <!-- Radar -->
+    <div class="radar">
+      <canvas id="chart8"></canvas>
+
+
+    <script>
+      Chart.defaults.global.title.display = true;
+      Chart.defaults.global.title.text = "Fitness assessment";
+      Chart.defaults.global.legend.display = false;
+    </script>
+
+
+        <script>
+          var ctx = document.getElementById('chart8').getContext('2d');
+          var chart8 = new Chart(ctx, {
+            type: 'radar',
+            data: {
+                labels: ['Running', 'Swimming', 'Eating', 'Cycling'],
+                datasets: [{
+                    data: [60, 75, 45, 25]
+                }]
+            },
+            options: {
+                scale: {
+                    angleLines: {
+                        display: false
+                    },
+                    ticks: {
+                        suggestedMin: 50,
+                        suggestedMax: 100
+                    }
+                }
+              }
+            });
+
+        </script>
+      </div>
+
+
     <!-- Body fat -->
     <div class="bodyfat">
       <canvas id="chart2"></canvas>
@@ -169,6 +208,151 @@
     });
     </script>
   </div>
+
+  <!-- Flexibility -->
+  <div class="flexibility">
+    <canvas id="chart4"></canvas>
+
+
+  <script>
+    Chart.defaults.global.title.display = true;
+    Chart.defaults.global.title.text = "Flexibility";
+    Chart.defaults.global.legend.display = false;
+  </script>
+
+
+      <script>
+        var ctx = document.getElementById('chart4').getContext('2d');
+        var chart4 = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['1 Sept', '2 Sept', '3 Sept', '4 Sept', '5 Sept', '6 Sept'],
+                datasets: [{
+                    label: 'Muscle mass',
+                    data: [54.8, 54.5, 54, 54.2, 53.7, 53.5],
+                    backgroundColor: [
+                        '#B0C4DE',
+
+                    ],
+                    borderColor: [
+                        '#ff1493'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+
+  });
+  </script>
+</div>
+
+
+<!-- Balance -->
+<div class="balance">
+  <canvas id="chart5"></canvas>
+
+
+<script>
+  Chart.defaults.global.title.display = true;
+  Chart.defaults.global.title.text = "Balance";
+  Chart.defaults.global.legend.display = false;
+</script>
+
+
+    <script>
+      var ctx = document.getElementById('chart5').getContext('2d');
+      var chart5 = new Chart(ctx, {
+          type: 'line',
+          data: {
+              labels: ['1 Sept', '2 Sept', '3 Sept', '4 Sept', '5 Sept', '6 Sept'],
+              datasets: [{
+                  label: 'Body fat',
+                  data: [15, 15, 14, 15, 14, 13],
+                  backgroundColor: [
+                      '#5F9EA0',
+
+                  ],
+                  borderColor: [
+                      '#ff1493'
+                  ],
+                  borderWidth: 1
+              }]
+          },
+
+});
+</script>
+</div>
+
+<!-- Blood pressure -->
+<div class="blood">
+  <canvas id="chart6"></canvas>
+
+
+<script>
+  Chart.defaults.global.title.display = true;
+  Chart.defaults.global.title.text = "Blood pressure";
+  Chart.defaults.global.legend.display = false;
+</script>
+
+
+    <script>
+      var ctx = document.getElementById('chart6').getContext('2d');
+      var chart6 = new Chart(ctx, {
+          type: 'line',
+          data: {
+              labels: ['1 Sept', '2 Sept', '3 Sept', '4 Sept', '5 Sept', '6 Sept'],
+              datasets: [{
+                  label: 'Body fat',
+                  data: [15, 15, 14, 15, 14, 13],
+                  backgroundColor: [
+                      '#FF0000',
+
+                  ],
+                  borderColor: [
+                      '#ff1493'
+                  ],
+                  borderWidth: 1
+              }]
+          },
+
+});
+</script>
+</div>
+
+<!-- Pulse -->
+<div class="pulse">
+  <canvas id="chart7"></canvas>
+
+
+<script>
+  Chart.defaults.global.title.display = true;
+  Chart.defaults.global.title.text = "Rest pulse";
+  Chart.defaults.global.legend.display = false;
+</script>
+
+
+    <script>
+      var ctx = document.getElementById('chart7').getContext('2d');
+      var chart7 = new Chart(ctx, {
+          type: 'line',
+          data: {
+              labels: ['1 Sept', '2 Sept', '3 Sept', '4 Sept', '5 Sept', '6 Sept'],
+              datasets: [{
+                  label: 'Body fat',
+                  data: [15, 15, 14, 15, 14, 13],
+                  backgroundColor: [
+                      '#FF7F50',
+
+                  ],
+                  borderColor: [
+                      '#ff1493'
+                  ],
+                  borderWidth: 1
+              }]
+          },
+
+});
+</script>
+</div>
 
 
 

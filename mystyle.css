@@ -379,7 +379,7 @@ option{
 
  .btn-success {
 	padding-left: 10px;
-  color: #03DAC6;
+
 }
 
 .profilepic img{
@@ -406,7 +406,9 @@ option{
 
 .weigth{
   margin-top: 20px;
-  margin-bottom: 60px;
+}
+.pulse{
+  margin-bottom: 50px;
 }
 
 .progphases{
@@ -589,6 +591,9 @@ button[data-setter]:hover {
   background: rgb(121,9,106);
   background: linear-gradient(90deg, rgba(121,9,106,1) 35%, rgba(255,154,0,1) 100%);
   height:35vh;
+  width: 100%;
+  position:fixed;
+
 }
 
 .profilepic-space{
@@ -602,7 +607,11 @@ button[data-setter]:hover {
 
 .bodycompo{
   height: 30%;
+  margin-top: 37vh;
+  margin-bottom: 20px;
 }
+
+
 
 .bodyfat{
   height: 30%;
@@ -694,17 +703,18 @@ button[data-setter]:hover {
   margin-left: -5px;
 }
 
-.challenge{
+/* challenges */
+
+#challenge1{
   margin-top: 50px;
-  margin-left: 5px;
+
 }
 
-.challdescription{
-  margin-top: -20px;
-}
+
 
 .participate{
   margin-top: -8px;
+  margin-left: 5px;
 }
 .classement table {
   margin-top: 8px;
