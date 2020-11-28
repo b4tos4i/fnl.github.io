@@ -674,28 +674,65 @@ button[data-setter]:hover {
   margin-top: -5px
 }
 
+#prix{
+  background-color: white;
+}
+
 #description{
   padding-top:  65%;
+  margin-left: 5px;
 }
 
 .priceproduit{
     text-align: center;
+    margin-top:10px ;
 }
 
-.heart{
-  margin: ;
+#heart{
+  background-color: white;
+}
+
+.heartproduit{
+  text-align: center;
+  margin-top:10px ;
+  margin-bottom: 10px;
 }
 
 .price {
   padding-left: 110px;
 }
 
+#size{
+  position: fixed;
+  top: 85%;
+  left: 65%;
+}
+
+#size2{
+  width:55px;
+  height: 37.5px;
+  background-color: orange;
+  color:white;
+  border-color: orange;
+  border-radius: 8%;
+}
+
+
+
 #price{
   position: fixed;
   top: 85%;
-  width: 500px;
-  left: 77%;
+  left: 82.5%;
+}
 
+.btn-secondary, .btn-secondary:hover{
+  background-color: #ff9900;
+  border-color: #ff9900;
+}
+
+.btn-primary, .btn-primary:hover{
+  background-color: #03DAC6;
+  border-color: #03DAC6;
 }
 
 .prodetails {
