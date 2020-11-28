@@ -95,9 +95,14 @@ p {
 
 
 .Leaderboard{
-  padding-top: -20px;
+  margin-top: 10px;
   margin-bottom: ;
 }
+
+#leaderboard{
+  display: inline-block;
+}
+
 
 tbody {
   font-size:10px;
