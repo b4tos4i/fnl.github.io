@@ -230,6 +230,22 @@ a:active{
   padding-top: 5px;
 }
 
+/* titanium chest */
+
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    
+}
 
 
 .progphases {
@@ -575,7 +591,10 @@ button[data-setter]:hover {
     stroke-width: 2px;
 }
 
-
+.btn.btn-success{
+  background-color: #03DAC6;
+  border-color: #03DAC6;
+}
 
 #mydiv {
   position: absolute;

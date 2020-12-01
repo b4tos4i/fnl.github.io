@@ -14,7 +14,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
     <!-- JS -->
 
@@ -23,8 +23,6 @@
     <link rel="stylesheet" href="assets/css/tiny-slider.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <script src="assets/js/tiny-slider.js"></script>
-
-
   </head>
   <body>
 
@@ -53,10 +51,11 @@
       <div class="row" id="progdescription">
         <p>Pour des pecs sur mesure</p>
      </div>
-     <div class="row">
-       <a href="titanium warmup.html">
-         <img src="pictures/titanium chest.jpeg" class="img-responsive" alt="">
-      </a>
+
+         <div class="video-responsive">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SV7l1sfEmO0?start=255&autoplay=1&controls=0&modestbranding=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
      </div>
     </div>
 
@@ -65,7 +64,7 @@
 
           <div  class="row no-gutters" id="tabsprog">
             <div class="col-3">
-                <a href="#" style="color:#03DAC6;">
+                <a href="titanium warmup.html" style="color:#03DAC6;">
                   Warm-up
                 </a>
             </div>
@@ -75,7 +74,7 @@
                 </a>
             </div>
             <div class="col-3">
-                <a href="titanium cooldown.html" style="color:lightgrey">
+                <a href="titanium cooldown.html" style="color:lightgrey;">
                   Cool-down
                 </a>
             </div>
@@ -88,97 +87,97 @@
 
           <!-- Prog content-->
 
-          <div class="progcontent">
-            <table>
-              <tr>
-                <td id="exo">Bench press</td>
-                <td id="serie">5 x 8 </td>
-                <td id="ronds">
-                    <div class="fa-stack fa-1x" >
-                      <i  class="fas fa-circle fa-stack-1x" id="one"></i>
-                      <i  class="far fa-circle fa-stack-1x" ></i>
-                    </div>
-                    <div class="fa-stack fa-1x">
-                      <i  class="fas fa-circle fa-stack-1x" id="two"></i>
-                      <i  class="far fa-circle fa-stack-1x" ></i>
-                    </div>
-                    <div class="fa-stack fa-1x">
-                      <i  class="fas fa-circle fa-stack-1x" ></i>
-                      <i  class="far fa-circle fa-stack-1x" ></i>
-                    </div>
-                    <div class="fa-stack fa-1x">
-                      <i  class="fas fa-circle fa-stack-1x" ></i>
-                      <i  class="far fa-circle fa-stack-1x" ></i>
-                    </div>
-                    <div class="fa-stack fa-1x">
-                      <i  class="fas fa-circle fa-stack-1x" ></i>
-                      <i  class="far fa-circle fa-stack-1x" ></i>
-                    </div>
-                </td>
-                <td id="weight">50kg</td>
-              </tr>
-              <tr>
-                <td id="exo">Inclined press dumbell </td>
-                <td id="serie">3 x 10</td>
-                <td id="ronds">
-                    <div class="fa-stack fa-1x" >
-                      <i  class="fas fa-circle fa-stack-1x" id="one"></i>
-                      <i  class="far fa-circle fa-stack-1x" ></i>
-                    </div>
-                    <div class="fa-stack fa-1x">
-                      <i  class="fas fa-circle fa-stack-1x" ></i>
-                      <i  class="far fa-circle fa-stack-1x" ></i>
-                    </div>
-                    <div class="fa-stack fa-1x">
-                      <i  class="fas fa-circle fa-stack-1x" ></i>
-                      <i  class="far fa-circle fa-stack-1x" ></i>
-                    </div>
+    <div class="progcontent">
+      <table>
+        <tr>
+          <td id="exo">Bench press</td>
+          <td id="serie">5 x 8 </td>
+          <td id="ronds">
+              <div class="fa-stack fa-1x" >
+                <i  class="fas fa-circle fa-stack-1x" id="one"></i>
+                <i  class="far fa-circle fa-stack-1x" ></i>
+              </div>
+              <div class="fa-stack fa-1x">
+                <i  class="fas fa-circle fa-stack-1x" id="two"></i>
+                <i  class="far fa-circle fa-stack-1x" ></i>
+              </div>
+              <div class="fa-stack fa-1x">
+                <i  class="fas fa-circle fa-stack-1x" ></i>
+                <i  class="far fa-circle fa-stack-1x" ></i>
+              </div>
+              <div class="fa-stack fa-1x">
+                <i  class="fas fa-circle fa-stack-1x" ></i>
+                <i  class="far fa-circle fa-stack-1x" ></i>
+              </div>
+              <div class="fa-stack fa-1x">
+                <i  class="fas fa-circle fa-stack-1x" ></i>
+                <i  class="far fa-circle fa-stack-1x" ></i>
+              </div>
+          </td>
+          <td id="weight">50kg</td>
+        </tr>
+        <tr>
+          <td id="exo">Inclined press dumbell </td>
+          <td id="serie">3 x 10</td>
+          <td id="ronds">
+              <div class="fa-stack fa-1x" >
+                <i  class="fas fa-circle fa-stack-1x" id="one"></i>
+                <i  class="far fa-circle fa-stack-1x" ></i>
+              </div>
+              <div class="fa-stack fa-1x">
+                <i  class="fas fa-circle fa-stack-1x" ></i>
+                <i  class="far fa-circle fa-stack-1x" ></i>
+              </div>
+              <div class="fa-stack fa-1x">
+                <i  class="fas fa-circle fa-stack-1x" ></i>
+                <i  class="far fa-circle fa-stack-1x" ></i>
+              </div>
 
-                </td>
-                <td id="weight">22kg</td>
-              </tr>
-              <tr>
-                <td id="exo">dumbell press</td>
-                <td id="serie">3 x 10</td>
-                <td id="ronds">
-                    <div class="fa-stack fa-1x" >
-                      <i  class="fas fa-circle fa-stack-1x" id="one"></i>
-                      <i  class="far fa-circle fa-stack-1x" ></i>
-                    </div>
-                    <div class="fa-stack fa-1x">
-                      <i  class="fas fa-circle fa-stack-1x" ></i>
-                      <i  class="far fa-circle fa-stack-1x" ></i>
-                    </div>
-                    <div class="fa-stack fa-1x">
-                      <i  class="fas fa-circle fa-stack-1x" ></i>
-                      <i  class="far fa-circle fa-stack-1x" ></i>
-                    </div>
+          </td>
+          <td id="weight">22kg</td>
+        </tr>
+        <tr>
+          <td id="exo">dumbell press</td>
+          <td id="serie">3 x 10</td>
+          <td id="ronds">
+              <div class="fa-stack fa-1x" >
+                <i  class="fas fa-circle fa-stack-1x" id="one"></i>
+                <i  class="far fa-circle fa-stack-1x" ></i>
+              </div>
+              <div class="fa-stack fa-1x">
+                <i  class="fas fa-circle fa-stack-1x" ></i>
+                <i  class="far fa-circle fa-stack-1x" ></i>
+              </div>
+              <div class="fa-stack fa-1x">
+                <i  class="fas fa-circle fa-stack-1x" ></i>
+                <i  class="far fa-circle fa-stack-1x" ></i>
+              </div>
 
-                </td>
-                <td id="weight">22kg</td>
-              </tr>
-              <tr>
-                <td id="exo">Push ups with elastic bands</td>
-                <td id="serie">3 x 10</td>
-                <td id="ronds">
-                    <div class="fa-stack fa-1x" >
-                      <i  class="fas fa-circle fa-stack-1x" id="one"></i>
-                      <i  class="far fa-circle fa-stack-1x" ></i>
-                    </div>
-                    <div class="fa-stack fa-1x">
-                      <i  class="fas fa-circle fa-stack-1x" ></i>
-                      <i  class="far fa-circle fa-stack-1x" ></i>
-                    </div>
-                    <div class="fa-stack fa-1x">
-                      <i  class="fas fa-circle fa-stack-1x" ></i>
-                      <i  class="far fa-circle fa-stack-1x" ></i>
-                    </div>
+          </td>
+          <td id="weight">22kg</td>
+        </tr>
+        <tr>
+          <td id="exo">Push ups with elastic bands</td>
+          <td id="serie">3 x 10</td>
+          <td id="ronds">
+              <div class="fa-stack fa-1x" >
+                <i  class="fas fa-circle fa-stack-1x" id="one"></i>
+                <i  class="far fa-circle fa-stack-1x" ></i>
+              </div>
+              <div class="fa-stack fa-1x">
+                <i  class="fas fa-circle fa-stack-1x" ></i>
+                <i  class="far fa-circle fa-stack-1x" ></i>
+              </div>
+              <div class="fa-stack fa-1x">
+                <i  class="fas fa-circle fa-stack-1x" ></i>
+                <i  class="far fa-circle fa-stack-1x" ></i>
+              </div>
 
-                </td>
-                <td id="weight">green band</td>
-              </tr>
-            </table>
-          </div>
+          </td>
+          <td id="weight">green band</td>
+        </tr>
+      </table>
+    </div>
 
       <!-- Timer-->
 
@@ -222,11 +221,10 @@
                    </g>
                 </g>
              </g>
-
        </div>
-
-
      </div>
+
+<div class="timerremaining">
 
 
   <script>let progressBar = document.querySelector('.e-c-progress');
@@ -341,9 +339,101 @@
 
   pauseBtn.addEventListener('click',pauseTimer);
   </script>
+  </div>
 </div>
 
+    <!-- session tracker -->
 
+    <div class="sessiontrackertitle">
+      <p>Session tracker</p>
+    </div>
+
+    <!-- session tracker content -->
+
+    <div class="sessiontracker" id="tracker">
+
+    <!-- set -->
+
+      <div class="form-group" id="trackerset">
+        <label for="exampleFormControlSelect1" >Set</label>
+        <select multiple class="form-control" id="exampleFormControlSelect1" size="1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>16</option>
+        </select>
+      </div>
+
+      <!-- nombre de reps -->
+
+      <div class="form-group" id="trackerreps">
+        <label for="exampleFormControlSelect2" >Reps</label>
+        <select multiple class="form-control" id="exampleFormControlSelect2" size="1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+          <option>16</option>
+          <option>17</option>
+          <option>18</option>
+          <option>19</option>
+          <option>20</option>
+        </select>
+      </div>
+
+    <!-- weight -->
+
+      <div class="form-group" id="trackerweight">
+        <label for="exampleFormControlSelect3" >Weight</label>
+        <select multiple class="form-control" id="exampleFormControlSelect3" size="1">
+          <option>10</option>
+          <option>20</option>
+          <option>30</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+
+    <!-- difficulty level -->
+
+      <div class="form-group" id="trackerrpe">
+        <label for="exampleFormControlSelect4" >RPE</label>
+        <select multiple class="form-control" id="exampleFormControlSelect4" size="1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option><10</option>
+        </select>
+      </div>
+
+    <!-- validation -->
+<div class="validation">
+
+
+        <button type="button" class="btn btn-success" onclick="myFunction()" >
+
+        </button>
+</div>
+</div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-light bg-light fixed-bottom">
@@ -366,6 +456,7 @@
 	      </a>
       </div>
     </nav>
+
 
 
 
