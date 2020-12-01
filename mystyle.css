@@ -210,8 +210,19 @@ a:active{
 
 #tabsprog{
   font-size: 15px;
-  text-align: center;
+text-align: center;
   margin-top: 10px;
+
+
+}
+
+#workout a{
+
+  padding-left: 40%;
+}
+
+#nut a{
+  padding-right: 40%;
 }
 
 .cal{
@@ -232,6 +243,8 @@ a:active{
 
 /* titanium chest */
 
+
+
 .video-responsive iframe{
     left:0;
     top:0;
@@ -244,7 +257,8 @@ a:active{
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    
+    height:0;
+    width: 100%;
 }
 
 
@@ -265,7 +279,7 @@ a:active{
 
 .progcontent{
   padding-left: 5px;
-  margin-top: 10px;
+
   font-size: 13px;
 
 }
