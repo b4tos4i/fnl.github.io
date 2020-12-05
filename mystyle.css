@@ -47,23 +47,36 @@ p {
   padding: 0px;
 }
 
+
 .p-2 img{
   display: block;
-  margin: 0;
+}
+
+#heartmini{
+  padding: 8px;
 }
 
 #nbclap{
   font-size: 11px;
   display: flex;
   align-items: center;
+  color: orange;
+  padding-left: -80px;
+}
+
+#nbheart{
+  font-size: 11px;
+  display: flex;
+  align-items: center;
   justify-content: center;
   color: orange;
+  padding-left: 8px;
 }
+
  #reco{
   color:grey;
   font-size:10px;
   margin-left: 5px;
-
   padding: 0px;
 }
 
@@ -279,9 +292,7 @@ text-align: center;
 
 .progcontent{
   padding-left: 5px;
-
   font-size: 13px;
-
 }
 
 
@@ -449,6 +460,13 @@ option{
   margin-bottom: 50px;
 }
 
+
+.tit{
+  background-color: black;
+  color:white;
+}
+
+
 .progphases{
   margin-top: -55px;
 }
@@ -474,6 +492,8 @@ option{
   margin-top: -5px;
 
 }
+
+
 
 .fa-stack.fa-1x{
   width: 10px;
