@@ -304,12 +304,12 @@ table{
 
 .scrollmenu {
   background-color: black;
-  overflow: auto;
+  overflow-x: scroll;
   white-space: nowrap;
 
 }
 
-div.scrollmenu a {
+.scrollmenu a {
   display: inline-block;
   color: white;
   text-align: center;
