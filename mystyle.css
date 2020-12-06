@@ -576,9 +576,11 @@ button[data-setter]:hover {
 }
 .minutes-set {
     float: left;
+    margin-left: 80px;
 }
 .seconds-set {
     float: right;
+    margin-right: 80px;
 }
 
 .display-remain-time {
