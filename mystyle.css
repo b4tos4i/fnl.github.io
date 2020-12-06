@@ -360,18 +360,23 @@ justify-content: center;
 
 #trackerset{
   text-align: center;
+  padding-right:10px;
+  margin-left: 10px;
 }
 
 #trackerreps{
   text-align: center;
+  padding-right:10px;
 }
 
 #trackerweight{
   text-align: center;
+  padding-right:10px;
 }
 
 #trackerrpe{
   text-align: center;
+  padding-right:10px;
 }
 
 #exampleFormControlSelect1{
